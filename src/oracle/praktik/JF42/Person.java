@@ -1,4 +1,4 @@
-package com.Oracle.JF_4_2;
+package oracle.praktik.JF42;
 
 public class Person {
 	
