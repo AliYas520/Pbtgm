@@ -14,9 +14,11 @@ public class GUI {
 		GUI.setVisible(true);
 	}
 	
-	public void TEXT(String string) {
-		JLabel text = new JLabel();
-		text.setForeground(Color.WHITE);
+	public GUI(Graphics2D g2) {
+		g2.setColor(Color.WHITE);
+		g2.setFont(new Font("Arial", Font.PLAIN,30));
+		g2.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, RenderingHints.VALUE_TEXT_ANTIALIAS_ON);
+		g2.drawString("Hello World!", 100, 0);
 	}
 
 }

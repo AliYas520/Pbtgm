@@ -33,7 +33,7 @@ public class NumberDiamond {
 			for (int left = 1; left <= i; left++) {
 				System.out.print(left + " ");
 			}
-			for (int right = i - 1; right >= 1; right--) {
+			for (int right = i - 1; right >= 1; right--) {  
 				System.out.print((right)+ " ");
 			}
 			System.out.println();
